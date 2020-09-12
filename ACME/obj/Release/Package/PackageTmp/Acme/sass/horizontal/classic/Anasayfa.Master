@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Anasayfa.master.cs" Inherits="ACME.Acme.sass.horizontal.classic.Anasayfa" %>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://crypto-admin-templates.multipurposethemes.com/sass/horizontal/images/favicon.ico">
+
+    <title>Crypto Admin - Responsive Bootstrap Admin HTML Templates + Bitcoin Dashboards + ICO </title>
+    
+	<!-- Bootstrap 4.0-->
+	<link rel="stylesheet" href="../assets/vendor_components/bootstrap/dist/css/bootstrap.css">
+	
+	<!-- bootstrap wysihtml5 - text editor -->
+	<link rel="stylesheet" href="../assets/vendor_plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css">
+    
+	<!--amcharts -->
+	<link href="../../../../www.amcharts.com/lib/3/plugins/export/export.css" rel="stylesheet" type="text/css" /> 
+	  
+	<!-- Data Table-->
+	<link rel="stylesheet" type="text/css" href="../assets/vendor_components/datatable/datatables.min.css"/>
+	
+	<!-- theme style -->
+	<link rel="stylesheet" href="css/horizontal-menu.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+	<!-- Crypto Admin skins -->
+	<link rel="stylesheet" href="css/skin_color.css">
+
+     
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    </head>
+<body class="layout-top-nav light-skin theme-classic">
+
+    <form id="form1" runat="server">
+       
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <!-- js -->
+	<script src="js/vendors.min.js"></script>
+	
+    <!--Vendor -->
+	<script src="../assets/vendor_components/apexcharts-bundle/dist/apexcharts.js"></script>
+	<script src="../../../../www.amcharts.com/lib/4/core.js"></script>
+	<script src="../../../../www.amcharts.com/lib/4/charts.js"></script>
+	<script src="../../../../www.amcharts.com/lib/4/themes/animated.js"></script>
+	<script src="../assets/vendor_components/Web-Ticker-master/jquery.webticker.min.js"></script>	
+	
+	<!-- Crypto Admin App -->
+	<script src="js/jquery.smartmenus.js"></script>
+	<script src="js/menus.js"></script>
+	<script src="js/template.js"></script>
+	<script src="js/pages/dashboard.js"></script>
+	<script src="js/demo.js"></script>
+
+
+   
+</body>
+</html>
